@@ -21,13 +21,15 @@ export const TodoForm =() => {
     }
 
     return (
-        <Form>
+        <Form id="todo-form">
             <Input
+                id="todo-form-input"
                 value={todo.todo}
                 placeholder="Clean dishes"
                 onChange={(event) => setTodo({todo: event.currentTarget.value})}
             />
                 <Button
+                    id="todo-form-button"
                     type={"submit"}
                     onClick={(event) => addNewTodo(event)}>
                     SAVE
