@@ -1,7 +1,7 @@
 import axios from "axios";
 
 let axiosInstance = axios.create({
-    baseURL: "https://oguz-todo.herokuapp.com/",
+    baseURL: process.env.BASE_URL,
     headers: { "Content-Type": "application/json; charset=UTF-8" },
 });
 
