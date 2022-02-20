@@ -1,0 +1,1 @@
+export const Container = ({children}) => <div className="mx-auto max-w-2xl">{children}</div>

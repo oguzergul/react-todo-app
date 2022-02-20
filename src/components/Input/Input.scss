@@ -1,0 +1,13 @@
+input[type=text] {
+  @apply w-full rounded-lg px-2 py-2 outline-none
+}
+input[type=checkbox]{
+  @apply h-4 w-4
+}
+.danger {
+  @apply border-2 border-red-600
+}
+
+.danger {
+  @apply border border-2 border-red-600
+}
