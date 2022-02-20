@@ -1,6 +1,4 @@
-import {
-    axiosInstance
-} from './axios'
+import { axiosInstance } from './axios'
 
 export default class HttpClient {
     get(url) {
@@ -9,13 +7,10 @@ export default class HttpClient {
     post(url, data= {}) {
         return axiosInstance.post(url, data)
     }
-    put(url, data= {}) {
-        return axiosInstance.put(url, data)
-    }
     patch(url, data = {}) {
         return axiosInstance.patch(url,data)
     }
-    delete(url, data = {}) {
-        return axiosInstance.delete(url, data)
+    delete(url,data) {
+        return axiosInstance.delete(url,data)
     }
 }
