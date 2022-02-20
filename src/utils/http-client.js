@@ -6,7 +6,7 @@ export default class HttpClient {
     get(url) {
         return axiosInstance.get(url)
     }
-    post(url, data={}) {
+    post(url, data= {}) {
         return axiosInstance.post(url, data)
     }
     put(url, data= {}) {
@@ -15,7 +15,7 @@ export default class HttpClient {
     patch(url, data = {}) {
         return axiosInstance.patch(url,data)
     }
-    delete(url) {
-        return axiosInstance.delete(url)
+    delete(url, data = {}) {
+        return axiosInstance.delete(url, data)
     }
 }

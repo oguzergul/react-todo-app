@@ -8,7 +8,7 @@ export default {
         return await service.post(urls.todo,payload).then(response => response.data);
     },
     delete : async (payload) => {
-        const response = await service.delete(`${urls.todo + payload._id}`).then(response => response);
+        const response = await service.delete(urls.todo, payload._id).then(response => response);
         return response.data;
     },
     list: async () => {
