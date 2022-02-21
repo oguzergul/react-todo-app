@@ -15,6 +15,7 @@ export const TodoForm =() => {
         event.preventDefault();
         if(todo.todo !== ""){
             dispatch(createTodo(todo));
+            setTodo({todo:""})
         } else {
             alert("Todo can not be empty!")
         }
