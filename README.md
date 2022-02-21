@@ -1,70 +1,62 @@
-# Getting Started with Create React App
+# React Todo App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Features
 
-## Available Scripts
+```javascript
 
-In the project directory, you can run:
+- create todo item
+- delete todo item
+- update todo item
 
-### `npm start`
+```
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Folder Structures
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+```javascript
 
-### `npm test`
+- src
+  - store    // All state management is created in here
+  - utils    // Package and helpers initialized in here
+  - services // Api Request services initialized in here
+  - App.js   // App homepage
+  - index.js 
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+```
 
-### `npm run build`
+### Commits
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+When you are sending a commit please follow the instructions below
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- If you added new piece of code or logic please use `feat the-name-of-the-commit` beginning of naming the commit.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- If it's a improvement by updating existing piece of code or logic, use `imp the-name-of-the-commit`
 
-### `npm run eject`
+This repository is using [conventional](https://www.conventionalcommits.org/en/v1.0.0/#specification) commits.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+> Conventional commits are a specification for adding human and machine readable meaning to commit messages
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### Commit Types
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+`feat`: A new feature
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+`fix`: A bug fix
 
-## Learn More
+`docs`: Documentation only changes
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+`style`: Changes that do not affect the meaning of the code (white-space, formatting, missing semi-colons, etc)
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+`refactor`: A code change that neither fixes a bug nor adds a feature
 
-### Code Splitting
+`imp`: A code change that improves performance
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+`test`: Adding missing or correcting existing tests
 
-### Analyzing the Bundle Size
+`chore`: Changes to the build process or auxiliary tools and libraries such as documentation generation
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+### Stack
 
-### Making a Progressive Web App
+- `React` 
+- `TailwindCSS`
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+### Licence
+- MIT Licence @oguzergul
